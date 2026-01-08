@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+.btn {
+  background: #fd6e0a;
+  color: #fff;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn-outline {
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background: #fff8f3;
+  padding: 40px 8%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo span {
+  color: #fd6e0a;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.hero-image img {
+  width: 350px;
+}
+
+/* About */
+.about {
+  background: #fff8f3;
+  margin: 80px auto;
+  padding: 60px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Skills */
+.skills {
+  text-align: center;
+  padding: 60px 8%;
+}
+
+.skill-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 25px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Resume */
+.resume {
+  padding: 60px 8%;
+}
+
+.resume-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.resume-item {
+  margin-bottom: 25px;
+}
+
+.center-btn {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* Contact */
+.contact {
+  background: #fff8f3;
+  padding: 60px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}

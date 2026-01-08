@@ -1,0 +1,281 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(222, 211, 211);
+    background: url('./images/developer.png'), rgb(222, 211, 211);
+background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 72%;
+    max-width: 1140px;
+    border: 3px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 52px;
+    align-items: center;
+    color: aqua;
+}
+
+nav a{
+    text-decoration: none;
+    font: 25px;
+}
+
+.btn{
+    background-color: blanchedalmond;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#banner .bannercon{
+        max-width:585px;
+    
+}
+
+#banner{
+    border: 3px solid red;
+    margin: 47px 38px 0 230px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+#banner .bannercon h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .bannercon h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: wheat;
+    margin-bottom: 20px;
+}
+#banner .bannercon p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner img{
+    max-width: 585px;
+   vertical-align: middle; 
+    /* new attribute */
+}
+
+#about{
+   padding-top: 130px;  /* why i using padding instead margin? */
+
+}
+/* max width ar width ar modha parthokko ki? */
+#about .aboutcont{
+        /* width: 71%; */
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 131px 156px;
+
+}
+section{
+    margin: 0 auto;
+    text-align: center;
+}
+.abouthead{
+    /* max-width: 827px; */
+    text-align: center;
+}
+
+.abouthead h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.abouthead p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+/* .abouthead p{ */
+    /* width: 70%; */
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: #757575;
+}
+
+#about .aboutcont .infoc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.about_information {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Its updated by instractor */
+
+.infoc p{
+    font-size: 20px;
+}
+.infoc h4{
+    font-size: 20px;
+}
+.skill {
+    padding-top: 130px;
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/* .skill{ */
+    padding-top: 130px;
+    text-align: center;
+    width: 71%;
+    max-width: 828px;
+}
+
+.skillcon{
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    margin: 30px auto;
+    gap: 24px;
+}
+/* its instractors one and other commented is my one */
+
+/* .card{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    gap: 24px; */
+}
+.skillcard{
+    padding: 30px;
+    max-width: 267px;
+      box-shadow: 0 6px 5px 0 #00000044;
+}
+.skillcard img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+.skillcard h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skillcard p{
+    font-size: 16px;
+    line-height: 28px;
+   
+    
+}
+
+/* 2nd time */
+
+ .resume{ 
+    display: flex;
+   justify-content: center;
+
+}
+
+ #resum{
+    padding-top: 130px;
+      width: 1140px;
+    margin: 0 auto;
+ }
+ #resumetitle{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom:113px;
+ }
+ #resume{
+    display: flex;
+    gap: 10px;
+ }
+.edu h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    text-align: left;
+    margin-bottom: 30px;
+   
+}
+.edu h3{ 
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.under{
+    width: 309px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.para {
+    font-size: 16px;
+    width: 511px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+hr{
+    width: 558px;
+    margin-bottom: 30px;
+
+}
+/* duita hr pasa pasi thakla gap kemna dey? */
+.btn2{
+        background-color: blanchedalmond;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:50px ;
+    
+}
