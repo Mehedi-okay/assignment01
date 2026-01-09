@@ -4,6 +4,10 @@
  box-sizing: border-box;
     font-family:sans-serif;
 }
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -12,7 +16,7 @@
 header{
     color: #FFFFFF;
     width: 1600px;
-    border: 3px solid black;
+    
 }
 #img{
     width: 139px;
@@ -25,7 +29,7 @@ header{
 }
 
 .btn:hover{
-    color: #469165;
+    background-color: #627382;
 }
 
 #navy li:hover{
@@ -70,7 +74,7 @@ padding: 16px 120px;
 
 #btn2{
     padding: 12px 16px;
-    /* width: 251px;i will add it aften or last finishing */
+    
     color: aliceblue;
     background-color: #469165;
     height: 52px;
@@ -78,7 +82,7 @@ padding: 16px 120px;
 
 #btn3{
     padding: 16px 12px;
-    /* width: 198px;i will add it aften or last finishing */
+   
     color: aliceblue;
     background-color: transparent;
     height: 52px;
@@ -110,14 +114,12 @@ padding: 16px 120px;
 #main1{
     background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
-    
-    border: 2px solid red;
+    max-width: 1600px;
     width: 1600px;
-height: 674px;
+    height: 674px;
+    display: flex;
 
-display: flex;
-
-justify-content: center;
+justify-items: center;
 align-items: center;
 gap: 40;
 padding: 70px 120px 134px 120px;
@@ -125,19 +127,8 @@ padding: 70px 120px 134px 120px;
 }
 #into-main1{
     text-align: center;
-/* width: 1360px;
-height: 380px;
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 32; */
 }
-/* #sec1{
 
-max-width: ;
-} */
 
 #buttons{
     display: flex;
@@ -156,8 +147,13 @@ max-width: ;
 /* section 1 completed */
 
 .cardhead{
+    max-width: 1600px;
     width: 1600px;
-    text-align: center;
+    height: 674px;
+    
+
+justify-items: center;
+align-items: center;
     margin-bottom: 120px;
 }
 .cardshead{
@@ -196,7 +192,7 @@ max-width: ;
     padding: 5px;
     border-radius: 80px; 
       
-    /* (i have to check it later ) */
+    
     background-color:#F95555 ;
     margin-bottom: 16px;
 
@@ -230,9 +226,19 @@ max-width: ;
 
 .moreinfo{
     /* border: 2px solid black; */
+        max-width: 1600px;
+
+justify-items: center;
+align-items: center;
     width: 1360px;
     display: flex;
     gap: 60px;
+}
+
+.moreinfo .list li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 #imginfo .title{
@@ -256,6 +262,7 @@ max-width: ;
 }
 #imginfo ul , li{
     list-style: none;
+    margin-bottom: 16px;
     
 }
 
@@ -273,14 +280,16 @@ max-width: ;
 
 .tbl{
    width: 1360px;
+    max-width: 1600px;
    height: 384px;
-    /* border: 2px solid black; */
     border-radius: 7px;
     background-color: #F7F6F2;
     margin-top: 120px;
     padding-top: 80px;
     text-align: center;
     margin-bottom: 120px;
+text-align: center;
+margin: 0 auto;
 }
 .tbl h2{
     font-size: 40px;
@@ -298,15 +307,15 @@ max-width: ;
         margin-bottom: 24px;
 }
 .btn02{
-    width: 193px;
+    padding: 12px 16px;
+    
+    color: aliceblue;
     background-color: #469165;
-    color: #FFFFFF;
-    height: 19px;
-    text-align: center;
-
-    padding: 12px 16px 12px 16px;
-    margin-bottom: 35px;
+    height: 52px;
+    border-radius: 5px;
+    margin-bottom: 28px;
 }
+
 .tbl , .para02{
         font-size: 16px;
          color: #627382;
@@ -334,6 +343,9 @@ footer{
 .foot img{
     width: 139px;
 }
+.footimg img{
+    margin-left: 120px;
+}
 .social p{
     font-size: 20px;
     line-height: 28px;
@@ -344,7 +356,9 @@ footer{
 .icon a{
     margin-right: 16px;
 }
-
+.icon img{
+    width: 40px;
+}
 
 
 
@@ -363,13 +377,13 @@ footer{
 
 
 .btn02:hover{
-    color: transparent;
+    background-color:red;
 }
 #btn2:hover{
-    color: transparent;
+    background-color: aqua;
 }
 #btn3:hover{
-    color: transparent;
+    background-color: aqua;
 }
 
 
